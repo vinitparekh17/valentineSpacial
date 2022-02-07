@@ -14,7 +14,9 @@ h1{
 }
 
 #container{
-    background-image: linear-gradient(rgba(255, 138, 196, 0.5),transparent), url("./istockphoto-1294064081-170667a.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 138, 196, 0.5),transparent), url(./0-1562_love-wallpaper-background-computer-hd-background-for-valentines.jpg);
     background-size: cover;
     background-position: center;
     padding: 0.5%;
