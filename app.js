@@ -42,4 +42,4 @@ app.post("/", (req, res) => {
     })
 })
 
-app.listen("3000", () => console.log("http://localhost:3000/"))
+app.listen(process.env.PORT, () => console.log("App has been deployed!"))
