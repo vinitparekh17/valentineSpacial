@@ -4,13 +4,19 @@
     user-select: none;
 }
 
+body{
+    padding: 0%;
+    background-color: #FBE5E5;
+    font-family: 'Quintessential', cursive;
+}
+
 h1{
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    color: #E60965;
+    color: #5107ff;
     margin-top: 2rem;
     font-weight: 900;
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 2px 2px 3px #fff;
 }
 
 #container{
@@ -49,7 +55,7 @@ form > h1{
 }
 
 .cbtn{
-    background: #F70776;
+    background: #5107ff;
     color: #fff;
     box-shadow: 5px 5px 10px rgb(135, 2, 2);
     font-family: sans-serif;
@@ -58,7 +64,7 @@ form > h1{
 }
 
 .cbtn:hover{
-    background: #a8024f;
+    background: #6b02a8;
     color: #fff
 }
 
@@ -77,7 +83,7 @@ form > h1{
     margin-top: 1rem;
     padding: .5rem;
     font-size: 2.5rem;
-    color: #A9333A;
+    color: #6b02a8;
     text-align: center;
     background: #ffffff59;
 }
