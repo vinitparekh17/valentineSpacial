@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    padding: 0%;
+    background-color: #FBE5E5;
+    font-family: 'Quintessential', cursive;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: #E60965;
+    margin-top: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 3px #610028;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 138, 196, 0.5),transparent), url(./istockphoto-1294064081-170667a.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.5%;
+    position: absolute;
+}
+
+.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 10%;
+    line-height: 1.5;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+form{
+    margin-top: 5rem;
+    width: 20rem;
+}
+form > h1{
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+#floatingInput, #floatingPassword{
+    box-shadow: 5px 5px 10px rgb(135, 2, 2);
+}
+
+.cbtn{
+    background: #F70776;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(135, 2, 2);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+
+.cbtn:hover{
+    background: #a8024f;
+    color: #fff
+}
+
+#img{
+    width: 7rem;
+    position: relative;
+    z-index: 1;
+}
+
+#err{
+    color: red;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.result{
+    margin-top: 1rem;
+    padding: .5rem;
+    font-size: 2.5rem;
+    color: #A9333A;
+    text-align: center;
+    background: #ffffff59;
+}
+
+span{
+    text-transform: capitalize;
+    font-weight: 800;
+}
